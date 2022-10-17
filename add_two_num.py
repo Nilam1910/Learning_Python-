@@ -244,19 +244,84 @@ unique = set  # when you see unique word that mean think bout set
 #     print("Your name is not present")
 
 # ------------ Calculate the Garde ---------------
-marks = int(input("Enter your "))
+# marks = int(input("Enter your "))
 
-if marks > 90:
-    grade = "Ex"
-elif marks >= 80:
-    grade = "A"
-elif marks >= 70:
-    grade = "B"
-elif marks >= 60:
-    grade = "C"
-elif marks >= 50:
-    grade = "D"
-else:
-    grade = "F"
-print(f"Your grade is {grade}")
+# if marks > 90:
+#     grade = "Ex"
+# elif marks >= 80:
+#     grade = "A"
+# elif marks >= 70:
+#     grade = "B"
+# elif marks >= 60:
+#     grade = "C"
+# elif marks >= 50:
+#     grade = "D"
+# else:
+#     grade = "F"
+# print(f"Your grade is {grade}")
 # print("Your grade is " + grade) # or you can write this way
+
+# ----------------- While Loop -----------------------
+# i = 0
+# while i < 10:
+#     print("Yes: " + str(i))
+#     i = i + 1  # you must write increment other wise its come out infinity loop and that can crash you computer # it will stop after condition get false mean will print up to 0-9. then it will stop printing
+# print("Done")
+
+# i = 0
+# while i < 5:
+#     print("Nilam")
+#     i = i + 1
+
+# fruits = ["Banana", "Apple", "Grape", "Kiwi"]
+# i = 0
+# while i < len(fruits):
+#     print(fruits[i])
+#     i = i + 1
+
+# # -------------- For Loop ----------------------------
+# for element in fruits:
+#     #  print("fruits: ", element) # or either way
+#     print(f"fruit: {element}")
+
+# for index in range(2, 8):
+#     print(index)  # will print 2-7
+
+# for index in range(0, 10, 3):  # range(start, stop, step-size)
+#     print(index)  # will print 0,3,6,9 will stop at 10
+
+# for i in range(10):
+#     print(i)
+# else:
+#     print("This is inside else of for")
+# ---------------Break ---------------
+# for i in range(10):
+#     print(i)
+#     if i == 5:  # it will print only up to 0-5 then it will break(stop)
+#         break
+# else:
+#     print("This is inside else of for")
+
+# --------- Continue -----------------------
+for i in range(10):
+    if i == 5:  # it will print without 5
+        continue
+    print(i)
+# ------------- Pass -----------------------
+
+i = 4
+
+
+def run(player):
+    pass          # i will pass come back later to specified field, work as null
+
+
+def ouch(player):
+    pass
+
+
+if i > 0:
+    pass
+while i > 6:
+    pass
+print("Learning python is good")
